@@ -1,7 +1,7 @@
 
 #include <iostream>
 #include "leetcode.h"
-//#include "exam.h"
+#include "exam.h"
 #include "example.h"
 
 using namespace std;
@@ -11,8 +11,8 @@ using namespace std;
 int main(int argc, char *argv[])
 {
 	//1 = leetcode 2 = exam 3 = example 
-	int mode = 3;
-	int num = 1;
+	int mode = 2;
+	int num = 46;
 	bool result = false;
 
 
@@ -37,7 +37,9 @@ int main(int argc, char *argv[])
 	case 2:
 	{
 		//exam ±  ‘”√
-
+		exam work(num);
+		result = work.do_sth();
+		return NULL;
 		break;
 	}
 	case 3:

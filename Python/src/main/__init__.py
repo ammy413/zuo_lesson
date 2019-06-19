@@ -8,10 +8,15 @@ from do_sth import leetcode
 # do_sth.do(0)
 # do_sth.do(0)
 
-a = leetcode(4,5)
-a.do(3)
+#a = leetcode(4,5)
+#a.do(3)
 
 # do_exam(0)
 
 
 print('hello')
+
+
+a=input().split(";")
+b=int(input())
+print(a[b])
